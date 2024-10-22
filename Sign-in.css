@@ -42,6 +42,7 @@ h1 {
     color: #fff;
     animation: fadeIn 1.2s ease forwards;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Container Styles */
@@ -196,4 +197,11 @@ button:active {
     button {
         font-size: 16px;
     }
+}
+
+#sign-up-container {
+    animation-delay: 0.5s;
+    position: relative;
+    top: -80px; /* Moves it upwards by 50px */
+    margin: 0 auto; /* Ensures it's centered */
 }
